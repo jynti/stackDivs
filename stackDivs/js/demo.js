@@ -5,7 +5,6 @@ function StackDivs(domElements){
 }
 
 StackDivs.prototype.init = function(){
-  // this.container.addClass("container");
   this.bindClickToButton();
 }
 
@@ -16,17 +15,6 @@ StackDivs.prototype.bindClickToButton = function(){
     addDiv.addClass("simple-div");
     addDiv.text(++(_this.count));
     _this.container.append(addDiv);
-    // _this.container.on("click", "div", function(event){
-      // var $this = $(this);
-      // $this.addClass("clickedDiv");
-      // if($this.is(":last-child")){
-      //   $this.remove();
-      //   _this.count--;
-      // }
-
-      // console.log($(this));
-
-    // });
   });
 
   this.container.on("click", "div", function(){
