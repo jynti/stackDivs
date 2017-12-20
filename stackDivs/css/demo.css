@@ -1,0 +1,12 @@
+.container{
+    display: inline-block;
+    border: 2px solid black;
+  }
+.simple-div{
+  width: 20px;
+  height:20px;
+  border: 1px solid red;
+}
+.clicked-div{
+  background-color: yellow;
+}
